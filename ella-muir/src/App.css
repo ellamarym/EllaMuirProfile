@@ -1,0 +1,82 @@
+/* 
+WHITE #F3F7F7
+YELLOW #EFB95E
+DARL #242837
+RED #B23D52
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center; 
+  font-family: Monaco;
+}
+
+/*Header*/
+
+.header {
+  background-color: #EFB95E;
+  color: #242837;
+ 
+}
+
+.header img {
+  border-radius: 50%;
+  height: 150px;
+  margin-top: 20px;
+  border: #242837 solid 4px;
+}
+
+.header h1 {
+  margin-top: 10px;
+  font-size: xx-large;
+  font-weight:bolder;
+}
+
+.header h2 {
+  margin-top: 10px;
+  font-size: medium;
+  padding-bottom: 10px;
+}
+
+/*Dropdown nav*/
+
+nav {
+  background-color: #242837;
+}
+.dropbtn {
+  background-color: #242837;
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  width:160px;
+  text-align: left;
+}
+
+.dropdown {
+  text-align: left;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F3F7F7;
+ width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #242837;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #242837;}
