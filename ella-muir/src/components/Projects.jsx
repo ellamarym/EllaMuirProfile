@@ -19,7 +19,7 @@ export const Projects = () => {
                     <h2>This site; frontend only</h2>
                     <h2>| Solo project |</h2>
                     <section className="project-details">
-                        <h3><a target="_blank" href="https://github.com/ellamarym/EllaMuirProfile">Frontend</a>: a React app. </h3>
+                        <h3><a target="_blank" href="https://ellamuirsoftwareengineer.netlify.app/technicalskills">Frontend</a>: a React app. </h3>
                         <h4>Javascript|html|css|axios|React </h4>
                     </section>
                 </section>
